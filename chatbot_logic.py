@@ -114,4 +114,3 @@ def text_to_speech(text, filename="response.mp3"):
     except Exception as e:
         print(f"TTS error: {e}")
         return None
-
