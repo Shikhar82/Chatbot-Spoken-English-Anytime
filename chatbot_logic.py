@@ -21,7 +21,6 @@ client_bedrock = boto3.client('bedrock-runtime', region_name=AWS_REGION)
 # ✅ Initialize the Claude model from Bedrock
 def get_llm_model():
     return ChatBedrock(
-        credentials_profile_name='default',
         model_id='anthropic.claude-3-sonnet-20240229-v1:0',
         model_kwargs={
             "max_tokens": 300,
