@@ -1,4 +1,5 @@
 # === chatbot_logic.py ===
+import os
 import io
 import json
 import boto3
